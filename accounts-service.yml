@@ -14,11 +14,7 @@ spring:
       ddl-auto: create-drop
     show-sql: true
     defer-datasource-initialization: true   # ← IMPORTANT !
-  sql:
-    init:
-      mode: always
-      data-locations: classpath:data.sql   # ← Optionnel
-
+ 
 logging:
   level:
     com.accounts: DEBUG
