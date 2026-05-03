@@ -13,7 +13,7 @@ spring:
     hibernate:
       ddl-auto: create-drop
     show-sql: true
-    defer-datasource-initialization: true   # ← IMPORTANT !
+    defer-datasource-initialization: true  
  
 logging:
   level:
